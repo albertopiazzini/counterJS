@@ -10,15 +10,14 @@ body {
 
 #title {
   font-family: verdana;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
 }
 
 .counterStyle {
-  width: 350px;
+  width: 55%;
   padding:25px;
   color: black;
-  font-size: 60px;
-  background-color:;
+  font-size: 70px;
   text-align: center;
   margin:50px;
   border: 2px solid black;
@@ -26,23 +25,24 @@ body {
 
 .box {
   display: flex;
-  width: 300px;
+  width: 50%;
   justify-content: space-between;
 }
 
 .button {
-  width: 42px;
-  height: 42px;
+  width: 60px;
+  height: 60px;
   background-color: #0599ff;
-  font-size: 35px;
+  font-size: 45px;
   text-align: center;
   cursor: pointer;
   border-radius: 15px;
   color: white;
+  font-weight: bold;
 }
 
 .resetStyle {
-  width: 75px;
+  width: 120px;
   border-radius: 15px;
   padding:10px;
   background-color: #0599ff;
@@ -50,7 +50,29 @@ body {
   margin: 20px;
   cursor: pointer;
   color: white;
-  font-size: 1.2rem;
+  font-size: 30px;
   position: relative;
   top:20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 550px) {
+    .counterStyle {
+      width: 85%;
+      }
+      .resetStyle {
+        width: 50%;
+        padding: 20px;
+      }
+      .box {
+        width: 80%;
+      }
+      .button {
+        width: 30%;
+        padding: 10px;
+        font-size: 55px;
+      }
+      #title {
+        font-size: 3.5rem;
+      }
 }
