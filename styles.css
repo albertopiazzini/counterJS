@@ -7,17 +7,16 @@ body {
   background-color: #d1eafa;
 }
 
-
 #title {
   font-family: verdana;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 .counterStyle {
   width: 55%;
   padding:25px;
   color: black;
-  font-size: 70px;
+  font-size: 75px;
   text-align: center;
   margin:50px;
   border: 2px solid black;
@@ -26,25 +25,28 @@ body {
 .box {
   display: flex;
   width: 50%;
+  height: 100px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .button {
-  width: 60px;
-  height: 60px;
+  width: 65px;
+  height: 65px;
   background-color: #0599ff;
-  font-size: 45px;
+  font-size: 50px;
   text-align: center;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 20px;
   color: white;
   font-weight: bold;
+  padding: 5px;
 }
 
 .resetStyle {
   width: 120px;
-  border-radius: 15px;
-  padding:10px;
+  border-radius: 20px;
+  padding:15px;
   background-color: #0599ff;
   text-align: center;
   margin: 20px;
@@ -52,27 +54,6 @@ body {
   color: white;
   font-size: 30px;
   position: relative;
-  top:20px;
+  top:30px;
   font-weight: bold;
-}
-
-@media screen and (max-width: 550px) {
-    .counterStyle {
-      width: 85%;
-      }
-      .resetStyle {
-        width: 50%;
-        padding: 20px;
-      }
-      .box {
-        width: 80%;
-      }
-      .button {
-        width: 30%;
-        padding: 10px;
-        font-size: 55px;
-      }
-      #title {
-        font-size: 3.5rem;
-      }
 }
