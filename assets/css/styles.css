@@ -41,6 +41,13 @@ body {
   color: white;
   font-weight: bold;
   padding: 5px;
+  transition: all .4s ease;
+
+}
+
+
+.button:hover {
+    background-color: black;
 }
 
 .resetStyle {
@@ -56,4 +63,9 @@ body {
   position: relative;
   top:30px;
   font-weight: bold;
+  transition: all .4s ease;
+
+}
+.resetStyle:hover {
+    background-color: red;
 }
