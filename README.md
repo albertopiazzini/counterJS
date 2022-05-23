@@ -9,5 +9,8 @@
   <li>clicking the "reset" button resets the counter value </li>
   </ul>
   
+  <p> You can try this application here: https://shiny-yeot-4c2c46.netlify.app/ </p>
+
+  
   
  
